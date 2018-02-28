@@ -1,0 +1,52 @@
+{
+  "name": "keeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore /public/* --ignore db.json src/server/index.js",
+    "webpack": "./node_modules/.bin/webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "article-title": "^2.0.0",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "copy-to-clipboard": "^3.0.8",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "extract-domain": "^2.0.0",
+    "get-title-at-url": "^1.1.5",
+    "is-url-superb": "^2.0.0",
+    "lodash": "^4.17.5",
+    "lowdb": "^1.0.0",
+    "moment": "^2.20.1",
+    "node-readability": "^3.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rimraf": "^2.6.2",
+    "semantic-ui-react": "^0.78.2",
+    "url-to-title": "^1.0.6",
+    "uuid": "^3.2.1",
+    "website-scraper": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0"
+  }
+}

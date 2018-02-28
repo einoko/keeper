@@ -1,0 +1,102 @@
+body {
+  font-family: 'Myriad Pro';
+}
+
+/* Custom Semantic overrides */
+.ui.menu {
+  font-family: 'Avenir Next', serif;
+  font-size: 1.2em;
+}
+
+.ui.menu .item>.input input {
+  font-family: 'Avenir Next', serif;
+  font-size: 0.85em;
+}
+
+.ui.secondary.menu {
+  /* border-bottom: 1px solid #eaeaea; */
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (min-width:768px) {
+  .ui.secondary.menu .item {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}
+
+.ui.secondary.menu a.item:hover {
+  background: #FFF;
+  color: #00baff;
+}
+
+.contentWrapper {
+  max-width: 1080px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.menubarWrapper {
+  padding-bottom: 18px;
+}
+
+.tagviewWrapper {
+  padding-top: 30px;
+}
+
+.ui.horizontal.divider {
+  display: grid;
+}
+
+.bookmarkLink {
+  padding-right: 20px;
+}
+
+.formButtonsWrapper {
+  padding-bottom: 20px;
+}
+
+.ui.pagination.menu {
+  font-size: 0.9em;
+}
+
+#filterDropdown {
+  margin-left: 30px;
+}
+
+#pageButtonsWrapper {
+  padding-bottom: 30px;
+}
+
+#pageButtonDivider {
+  padding-top: 12px;
+}
+
+.ui.vertical.divider:after, .ui.vertical.divider:before {
+  border-left: none;
+}
+
+#keeperLogo {
+  width: 100%;
+}
+
+#noBookmarks {
+  text-align: center;
+}
+
+/* Debugging rules
+.sidebar {
+  background: red;
+}
+
+.bookmarkView {
+  background: green;
+}
+*/
