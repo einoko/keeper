@@ -1,0 +1,5 @@
+/.idea
+public/files/
+public/files/*
+/node_modules/
+/db.json
